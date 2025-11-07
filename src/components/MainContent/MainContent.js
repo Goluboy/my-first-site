@@ -1,4 +1,5 @@
 import './MainContent.css';
+import MapComponent from '../Map/MapComponent';
 
 function MainContent() {
   const categories = [
@@ -28,6 +29,9 @@ function MainContent() {
             ))}
           </div>
         </section>
+
+        {/* ДОБАВЛЯЕМ КАРТУ */}
+        <MapComponent />
       </div>
     </main>
   );
