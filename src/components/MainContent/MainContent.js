@@ -1,5 +1,5 @@
 import './MainContent.css';
-import MapComponent from '../Map/MapComponent';
+import MapboxExample from '../Map/MapComponent';
 
 function MainContent() {
   const categories = [
@@ -31,7 +31,7 @@ function MainContent() {
         </section>
 
         {/* ДОБАВЛЯЕМ КАРТУ */}
-        <MapComponent />
+        <MapboxExample />
       </div>
     </main>
   );
